@@ -19,5 +19,5 @@ when a user inputs the correct field it will display the countries info:
 ![Screenshot from 2023-04-06 15-31-15](https://user-images.githubusercontent.com/127118116/230395475-4d80ae50-b9b1-49a0-83ea-abb34187c800.png)
 
 
-Designed by: Austin Komen
+Designed $ published by: Austin Komen
 
