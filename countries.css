@@ -21,22 +21,26 @@ body{
 #search-wrapper{
     display: flex;
     flex-direction: column 2px 4px;
-    gap: 22cm;
+    gap: 25cm;
     
 }
 #search-wrapper button{
+    font-weight: 600;
     font-size: 30px;
     background-color: rgb(249, 246, 249);
-    padding: 40px 40px;
+    padding: 10px 30px;
+    margin-top: 20px;
     border: line;
     border-radius: 40px;
     justify-content: center;
-    margin: 0;
 }
 #search-wrapper input{
+    justify-content: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    padding: 40px 40px;
+    padding: 30px 30px;
+    margin-top: 20px;
+    margin-trim: 30px;
     border: none;
     border-radius: 40px;
     background-color: white;

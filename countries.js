@@ -7,7 +7,7 @@ searchBtn.addEventListener("click", () => {
   //  // searches for the country
    let URL = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
   //  console.log(URL);
-   fetch(URL)
+  fetch(URL)
    .then((response) => response.json())
    .then((data) => {
     //  console.log(data[0]);
@@ -60,5 +60,4 @@ searchBtn.addEventListener("click", () => {
       results.innerHTML = `<h3>Sorry, ${countryName} is not a country. Try again!</h3>`
     }
   });  
-  results.reset();
-});
+ });
